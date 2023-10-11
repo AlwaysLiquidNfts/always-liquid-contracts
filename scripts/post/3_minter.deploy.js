@@ -1,11 +1,11 @@
 // 3. Deploy minter contract
-// npx hardhat run scripts/post/3_minter.deploy.js --network arbitrum
+// npx hardhat run scripts/post/3_minter.deploy.js --network arbitrumGoerli
 
 const contractName = "PostMinter";
 
-const daoAddress = ""; 
-const devAddress = ""; 
-const postAddress = "";
+const daoAddress = "0xb29050965a5ac70ab487aa47546cdcbc97dae45d"; 
+const devAddress = "0xb29050965a5ac70ab487aa47546cdcbc97dae45d"; 
+const postAddress = "0x4A82158ff4B0504F3DB4c7555FfB6298452985E2";
 
 const daoFee = 1000; // 10%
 const devFee = 1000; // 10%

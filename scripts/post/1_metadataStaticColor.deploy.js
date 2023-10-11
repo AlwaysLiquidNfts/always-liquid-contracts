@@ -1,5 +1,5 @@
 // 1. Deploy metadata contract
-// npx hardhat run scripts/post/1_metadataStaticColor.deploy.js --network arbitrum
+// npx hardhat run scripts/post/1_metadataStaticColor.deploy.js --network arbitrumGoerli
 
 const contractName = "PostMetadataStaticColor";
 

@@ -1,13 +1,13 @@
 // 4. Deploy Launchpad contract.
-// npx hardhat run scripts/launchpad/4_launchpad.deploy.js --network base
+// npx hardhat run scripts/launchpad/4_launchpad.deploy.js --network arbitrumGoerli
 
 const contractName = "Launchpad";
 
-const metadataAddress = "";
-const mintingFeeReceiver = ""; // revenue distributor contract address
-const statsMiddlewareAddress = "";
+const metadataAddress = "0xdeBc51Cc932Aa24fb9bB5D062d73E5B2E933626D";
+const mintingFeeReceiver = "0xb29050965a5ac70ab487aa47546cdcbc97dae45d";
+const statsMiddlewareAddress = "0x249f1172Ebd8686386a5C0Ee704378B85acD0627";
 const mintingFeePercentage = ethers.utils.parseEther("0.02");
-const price = ethers.utils.parseEther("0.002"); // price for creating a new NFT collection
+const price = ethers.utils.parseEther("0.00002"); // price for creating a new NFT collection
 
 async function main() {
   const [deployer] = await ethers.getSigners();

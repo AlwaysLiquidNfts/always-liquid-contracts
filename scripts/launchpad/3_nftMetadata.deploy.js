@@ -1,5 +1,5 @@
 // 3. Deploy NftMetadata contract.
-// npx hardhat run scripts/launchpad/3_nftMetadata.deploy.js --network base
+// npx hardhat run scripts/launchpad/3_nftMetadata.deploy.js --network arbitrumGoerli
 
 const contractName = "NftMetadata";
 

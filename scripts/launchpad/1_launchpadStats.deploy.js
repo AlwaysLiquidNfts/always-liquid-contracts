@@ -1,5 +1,5 @@
 // 1. Deploy LaunchpadStats contract.
-// npx hardhat run scripts/launchpad/1_launchpadStats.deploy.js --network base
+// npx hardhat run scripts/launchpad/1_launchpadStats.deploy.js --network arbitrumGoerli
 
 const contractName = "LaunchpadStats";
 

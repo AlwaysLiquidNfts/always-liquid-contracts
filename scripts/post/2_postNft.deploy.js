@@ -1,10 +1,10 @@
 // 2. Deploy Post NFT contract
-// npx hardhat run scripts/post/2_postNft.deploy.js --network arbitrum
+// npx hardhat run scripts/post/2_postNft.deploy.js --network arbitrumGoerli
 
 const contractName = "PostNft";
 
-const defaultPrice = ethers.utils.parseEther("0.0002");
-const metadataAddress = "";
+const defaultPrice = ethers.utils.parseEther("0.00002");
+const metadataAddress = "0xc486B08Ed47fFe5c1b4b1A2ff5c671EA0083D9bA";
 const collectionName = "AlwaysLiquid Posts";
 const collectionSymbol = "ALPOST";
 

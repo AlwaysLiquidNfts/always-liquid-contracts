@@ -1,15 +1,15 @@
 // 5. Deploy mock/test AlwaysLiquidNft contract so that others created through factory can get auto-verified.
-// npx hardhat run scripts/launchpad/5_mockNft.deploy.js --network base
+// npx hardhat run scripts/launchpad/5_mockNft.deploy.js --network arbitrumGoerli
 
 const contractName = "AlwaysLiquidNft";
 
-const factoryAddress = "";
-const metadataAddress = "";
-const mintingFeeReceiver = "";
+const factoryAddress = "0x305912c0d03C22e6eB7D37E06A47ab899e48B9Af";
+const metadataAddress = "0xdeBc51Cc932Aa24fb9bB5D062d73E5B2E933626D";
+const mintingFeeReceiver = "0xb29050965a5ac70ab487aa47546cdcbc97dae45d";
 const cName = "Test collection";
 const cSymbol = "TEST";
 const mintingFeePercentage = ethers.utils.parseEther("0.02");
-const ratio = ethers.utils.parseEther("4200");
+const ratio = ethers.utils.parseEther("1");
 
 async function main() {
   const [deployer] = await ethers.getSigners();

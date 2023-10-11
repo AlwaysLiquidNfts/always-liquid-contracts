@@ -22,7 +22,7 @@ module.exports = {
     },
     arbitrumGoerli: {
       url: 'https://goerli-rollup.arbitrum.io/rpc',
-      //url: 'https://endpoints.omniatech.io/v1/arbitrum/goerli/public',
+      //url: 'https://arbitrum-goerli.public.blastapi.io',
       chainId: 421613,
       accounts: [process.env.DEPLOYER_PRIVATE_KEY],
       gas: "auto", // gas limit
@@ -57,7 +57,7 @@ module.exports = {
       },
       {
         network: "arbitrumSepolia",
-        chainId: 421613,
+        chainId: 421614,
         urls: {
           apiURL: "https://api-sepolia.arbiscan.io/api",
           browserURL: "https://sepolia.arbiscan.io"

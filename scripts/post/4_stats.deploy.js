@@ -1,9 +1,9 @@
 // 4. Deploy stats contract
-// npx hardhat run scripts/post/4_stats.deploy.js --network arbitrum
+// npx hardhat run scripts/post/4_stats.deploy.js --network arbitrumGoerli
 
 const contractName = "PostStats";
 
-const minterAddress = "";
+const minterAddress = "0x1EB2Adc19eB3Df26D84427Be11F1eB1887c6631c";
 const shouldStatsBeEnabled = true;
 
 const minterInterface = new ethers.utils.Interface([
